@@ -1,1 +1,1 @@
-# alter-statements-and-foreign-key
+# primary key and foreign key and alter
