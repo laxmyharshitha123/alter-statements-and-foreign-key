@@ -1,0 +1,12 @@
+## alter command and foreign key
+1. ALTER : ADD,MODIFY,DROP
+         1 ADD :  alter table tablename add column_name datatype (limit) constraints;
+        2  DROP :  alter table tablename
+                        -> drop column_name;
+        3 MODIFY :    ALTER table tablename modify column_name new_datatype(size) constraints;
+2. foreign key :  create table tablename(
+    -> columnname (datatype),
+    -> columnname (datatype),
+    -> primary key int,## in another table
+    -> primary key (primary key in this table),
+    -> foreign key (primary key) references old tablename(primary key));
